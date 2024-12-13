@@ -1,0 +1,37 @@
+@import './Color.scss'; 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color:$second;
+    padding-inline:20px ;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.header .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header .logo  p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $third;
+}
+.header .logo img {
+    width: 50px;
+}
+.header  nav {
+    display: flex;
+    gap: 30px;
+    
+}
+.header nav .nav-link {
+    color: rgb(255, 255, 255); 
+    font-size: 1.2rem;
+}
+

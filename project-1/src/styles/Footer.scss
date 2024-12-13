@@ -1,0 +1,60 @@
+@import './Color.scss'; 
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color:$second;
+    padding-inline:50px ;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-top: 1px solid white;
+
+}
+.footer .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer .logo  p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $third;
+}
+.footer .logo img {
+    width: 50px;
+}
+ .social-links {
+    display: grid;
+    gap: 10px;
+    margin-right: 50px;
+}
+.social-links h2 {
+    color: white;
+    text-align: center;
+   
+}
+
+.social-links div {
+   
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.social-links div .social-link {
+  flex-direction: column;
+  gap: 7px;
+}
+.social-links div .social-link img {
+    width: 25px;
+}
+.social-links div .social-link p {
+    font-size: 0.7rem;
+    color: white;
+}

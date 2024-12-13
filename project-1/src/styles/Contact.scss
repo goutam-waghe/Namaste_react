@@ -1,0 +1,42 @@
+@import "./Color.scss";
+
+form {
+    width: 100%;
+    height: 70vh;
+    background-color: $third;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    > div {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+ > div input {
+    width: 400px;
+    padding: 10px ;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid black;
+    font-size: 1rem;
+}
+> div textarea {
+    border: none;
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    outline: none;
+}
+> button {
+    padding: 12px 24px;
+    background-color: $second;
+    color: white;
+    border-radius:5px ;
+    border: none;
+    cursor: pointer;
+}
+}
